@@ -9,7 +9,7 @@ import 'package:trackexpenses/app/routes/app_routes.dart';
 class AppPages {
   static final routes = [
     GetPage(name: AppRoutes.INITIAL, 
-    page: () =>  SplashScreen(),
+    page: () =>  const SplashScreen(),
     ),
     GetPage(
       name: AppRoutes.HOME,
